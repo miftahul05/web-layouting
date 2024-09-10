@@ -1,0 +1,81 @@
+body {
+    background-color: #a8a4a4;
+    background-image: url(img/leaves.png);
+
+
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #c9c9c9;
+}
+
+.header {
+    padding: 10px;
+}
+.h1 {
+    margin-left: 50px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(img/spiderman.jpg);
+    background-size: cover;
+    background-position: 0 -200;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightblue;
+
+}
+
+.content {
+    padding: 10px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.content .penulis {
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    padding: 10px;
+}
